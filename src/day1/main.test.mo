@@ -57,7 +57,7 @@ let success = run([
         "should divide a number to counter",
         do {
           let response = await day1Actor.div(2.0);
-          assertTrue(response == 2.0);
+          assertTrue(response == ?2.0);
         },
       ),
     ],
@@ -106,7 +106,7 @@ let success = run([
         "should return the square root of counter",
         do {
           let response = await day1Actor.sqrt();
-          assertTrue(response == 3.0);
+          assertTrue(response == 3);
         },
       ),
       it(

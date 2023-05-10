@@ -8,7 +8,7 @@
       "main": "src/day2/main.mo",
       "type": "motoko"
     },
-    "day3": {
+    "motokoBootcamp": {
       "main": "src/day3/main.mo",
       "type": "motoko"
     },
