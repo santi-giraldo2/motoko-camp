@@ -8,11 +8,11 @@
       "main": "src/day2/main.mo",
       "type": "motoko"
     },
-    "motokoBootcamp": {
+    "day3": {
       "main": "src/day3/main.mo",
       "type": "motoko"
     },
-    "day4": {
+    "motokoBootcamp": {
       "main": "src/day4/main.mo",
       "type": "motoko"
     },
