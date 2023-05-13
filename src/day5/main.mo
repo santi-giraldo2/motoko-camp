@@ -84,3 +84,18 @@ actor class Verifier() {
   };
   // STEP 5 - END
 };
+
+// dfx canister --network ic start --all
+// stable var entries : [(Principal, StudentProfile)] = [];
+//   let iter = entries.vals();
+
+//   let studentProfileStore : HashMap.HashMap<Principal, StudentProfile>
+//     = HashMap.fromIter<Principal, StudentProfile>(iter, 10, Principal.equal, Principal.hash);
+
+// system func preupgrade() {
+//     entries := Iter.toArray(studentProfileStore.entries());
+//   };
+
+//   system func postupgrade() {
+//     entries := [];
+//   };
